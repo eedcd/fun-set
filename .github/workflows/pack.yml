@@ -1,0 +1,43 @@
+name: Pack Map
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Install map-packer
+        run: pip install map-packer
+
+      - name: Pack map
+        run: mmp pack
+
+      - name: Resolve archive
+        id: archive
+        run: |
+          archive="$(ls -t dist/* | head -n 1)"
+          echo "path=$archive" >> "$GITHUB_OUTPUT"
+          echo "name=$(basename "$archive")" >> "$GITHUB_OUTPUT"
+          echo "tag=$(basename "$archive" | tr ' ' '-')" >> "$GITHUB_OUTPUT"
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ steps.archive.outputs.tag }}" \
+            "${{ steps.archive.outputs.path }}" \
+            --title "${{ steps.archive.outputs.name }}" \
+            --notes "$(git log -1 --pretty=%B)"

@@ -1,0 +1,72 @@
+{
+    "display": {
+        "title": "Fun Set",
+        "description": [
+            {
+                "text": "✦ ",
+                "color": "#B57BFF",
+                "bold": true
+            },
+            {
+                "text": "第",
+                "color": "#C77DFF",
+                "bold": true
+            },
+            {
+                "text": "一",
+                "color": "#D08CFF",
+                "bold": true
+            },
+            {
+                "text": "次",
+                "color": "#D996FF",
+                "bold": true
+            },
+            {
+                "text": "加",
+                "color": "#E29FFF",
+                "bold": true
+            },
+            {
+                "text": "入",
+                "color": "#EBA8FF",
+                "bold": true
+            },
+            {
+                "text": " ",
+                "color": "#F0B0FF"
+            },
+            {
+                "text": "Fun Set",
+                "color": "#FFD166",
+                "bold": true,
+                "italic": true
+            },
+            {
+                "text": " ",
+                "color": "#F0B0FF"
+            },
+            {
+                "text": "✦",
+                "color": "#B57BFF",
+                "bold": true
+            }
+        ],
+        "announce_to_chat": false,
+        "frame": "goal",
+        "icon": {
+            "id": "minecraft:golden_spear",
+            "components": {
+                "minecraft:enchantments": {
+                    "minecraft:sharpness": 255
+                }
+            }
+        },
+        "background": "minecraft:block/glowstone"
+    },
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

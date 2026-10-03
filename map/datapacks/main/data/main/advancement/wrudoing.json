@@ -1,0 +1,44 @@
+{
+    "display": {
+        "title": "你在干什么?",
+        "description": [
+            {
+                "text": "干什么呢...",
+                "color": "#7d7bff",
+                "bold": true
+            }
+        ],
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "id": [
+                        649607007,
+                        1444563473,
+                        -1119242704,
+                        -375322609
+                    ],
+                    "name": "wzggok",
+                    "properties": [
+                        {
+                            "name": "textures",
+                            "signature": "dQuGrfQIuH5XwQNSazOVaWwJjlzSAEpvWf3gTA6vxUEtrq3uz0sSGjFyYP/RP1JWrTk1hRXrN2LOOm6BYzDk5Q2Aboq7gHH/1z5fFHzcAwbmaFzS/3a8uEM+r5O0VmNASWMJGASAr9wiSXN5a4yoSaT7mIA2NuEIIC1WFldztoIJ+00Cw+6Pf1jHs8e7fVIqKNVg+EtOPWlIqn1NY4gQJfi+TQ+Xl4n0NshvIl1OY7WV8L8+9s+4tIanHyZ5Y3RqLcHYRwsgShhkBodZbM53dhzhHrHQvcMLwjhMJiqfIpXEwNEO+CeKiIyul+RDZYMgtUnRZLlNo3namsFRXZ3njIlyGGH2Pu46P62DHDyF8ZmxGAtw9ZGkA7ZNdydNPJWNB+dqey6VHeHl86ETYC0P44OpRHujLTYWH9BU+zM/cZ8//MqUleNE2XtvINErLBkScLsiFm1CIX/x6dMofCDfMb89ABpAWrqKXt6fDWxNsLo8FRnBMbFjpD920nbMboMNcMY8u6I1a4klCg2qo9rhUtTXp6byyiYSuFE7kbL3MSu1AAxjF2woVW4aDRzipL8WiLgiBM/6bYuZg9u4dyWzDy/BmjEME7GVaue1oloY7eOwd6+nJTEPy5HT4EUHv/NyB9yy+2lGuis+f82fIElFU82QmQcnXASVyKvnPxv/kZc=",
+                            "value": "ewogICJ0aW1lc3RhbXAiIDogMTc5MDQwMDc5OTY5MiwKICAicHJvZmlsZUlkIiA6ICIyNmI4Mzc1ZjU2MWE0YTExYmQ0OWI2MzBlOWExMDgwZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ3emdnb2siLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTFmZjI0MGVjNDc2OTQ1ZDY5OTRiNzIzNjExYTNmN2IzY2Q1ZWJkOTE5NjdjZGRiMmE4ZDNmZGEyNGI4NjA4IgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOGRlNGE4MTY4OGFkMThiNDllNzM1YTI3M2UwODZjMThmMWUzOTY2OTU2MTIzY2NiNTc0MDM0YzA2ZjVkMzM2IgogICAgfQogIH0KfQ=="
+                        }
+                    ]
+                }
+            }
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "main:advancement/check_all_eg"
+    },
+    "parent": "main:eg"
+}

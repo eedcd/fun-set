@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": "登高望远?",
+        "description": [
+            {
+                "text": "登高忘远",
+                "color": "#b6ff7b",
+                "bold": true
+            }
+        ],
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:shulker_shell"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards":{
+        "function": "main:advancement/check_all_eg"
+    },
+    "parent": "main:eg"
+}

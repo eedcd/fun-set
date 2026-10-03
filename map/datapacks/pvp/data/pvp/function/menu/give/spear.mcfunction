@@ -1,0 +1,1 @@
+give @s minecraft:netherite_spear[minecraft:enchantments={"minecraft:sharpness":15,"minecraft:unbreaking":3,"minecraft:lunge":7,"minecraft:knockback":2}]

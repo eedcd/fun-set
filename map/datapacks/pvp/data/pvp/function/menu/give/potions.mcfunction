@@ -1,0 +1,6 @@
+give @s minecraft:potion[potion_contents={"potion":"strong_swiftness"}]
+give @s minecraft:potion[potion_contents={"potion":"strong_leaping"}]
+give @s minecraft:splash_potion[potion_contents={"potion":"strength"}]
+give @s minecraft:splash_potion[potion_contents={"potion":"weakness"}]
+give @s minecraft:splash_potion[potion_contents={"potion":"strong_regeneration"}]
+give @s minecraft:splash_potion[potion_contents={"potion":"strong_healing"}]

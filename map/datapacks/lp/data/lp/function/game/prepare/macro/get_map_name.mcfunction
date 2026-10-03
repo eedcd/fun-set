@@ -1,0 +1,1 @@
+$execute in minecraft:overworld run data modify storage lp:game map_name set from block $(mapx) 147 -1 front_text.messages[0]

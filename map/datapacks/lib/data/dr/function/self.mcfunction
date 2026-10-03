@@ -1,0 +1,2 @@
+execute if score @s dr.death_coount matches 1.. run return run function dr:back with entity @s
+$data modify storage lib:dr players[{UUID:$(UUID)}] merge value {UUID:$(UUID),Dimension:"$(Dimension)",Pos:$(Pos),Rotation:$(Rotation)}

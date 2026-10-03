@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "彩蛋猎人",
+        "description": [
+            {
+                "text": "找到所有彩蛋",
+                "color": "#b6ff7b",
+                "bold": true
+            }
+        ],
+        "announce_to_chat": true,
+        "frame": "challenge",
+        "icon": {
+            "id": "minecraft:nether_star"
+        }
+    },
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "main:first"
+}

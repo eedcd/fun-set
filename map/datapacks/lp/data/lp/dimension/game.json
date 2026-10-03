@@ -1,0 +1,12 @@
+{
+  "type": "lp:game",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:the_void",
+      "layers": [],
+      "lakes": false,
+      "features": false
+    }
+  }
+}

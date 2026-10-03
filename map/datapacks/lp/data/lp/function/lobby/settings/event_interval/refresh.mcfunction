@@ -1,0 +1,1 @@
+setblock -465 117 -10 minecraft:oak_wall_sign[facing=south]{id:"minecraft:sign",allow_op_features:1b,front_text:{color:"black",has_glowing_text:0b,messages:[[{color:"white",text:"事件间隔(tick)"}],[{color:"aqua","score":{"name":"event_interval","objective":"lp.game"},bold:true}],"",""]},back_text:{color:"black",has_glowing_text:0b,messages:["","","",""]}} replace

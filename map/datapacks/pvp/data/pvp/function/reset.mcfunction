@@ -1,0 +1,1 @@
+execute in pvp:game positioned 0 0 0 run function pvp:sub/reset

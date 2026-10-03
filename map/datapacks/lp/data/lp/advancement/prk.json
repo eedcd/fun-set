@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "use_fire_charge": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:emerald",
+            "minecraft:redstone"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "lp:lobby/prepare_right_click"
+  }
+}

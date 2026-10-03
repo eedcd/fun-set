@@ -1,0 +1,16 @@
+{
+  "pack": {
+    "description": [
+      {"text":"幸","color":"red"},
+      {"text":"运","color":"green"},
+      {"text":"之","color":"yellow"},
+      {"text":"柱","color":"blue"},
+      {"text":"\nLucky Pillar","color":"white","italic":true}
+    ],
+    "min_format": [
+      121,
+      1
+    ],
+    "max_format": 121
+  }
+}

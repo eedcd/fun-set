@@ -1,0 +1,1 @@
+$execute as @a[x=0,nbt={UUID:[I;$(a),$(b),$(c),$(d)]}] run tag @s add equip_click

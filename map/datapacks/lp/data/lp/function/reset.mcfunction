@@ -1,0 +1,1 @@
+execute in lp:game positioned 0 0 0 run function lp:sub/reset

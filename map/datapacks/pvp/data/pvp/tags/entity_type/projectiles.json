@@ -1,0 +1,19 @@
+{
+  "values": [
+    "#minecraft:arrows",
+    "minecraft:snowball",
+    "minecraft:egg",
+    "minecraft:ender_pearl",
+    "minecraft:splash_potion",
+    "minecraft:lingering_potion",
+    "minecraft:experience_bottle",
+    "minecraft:small_fireball",
+    "minecraft:fireball",
+    "minecraft:wither_skull",
+    "minecraft:wind_charge",
+    "minecraft:dragon_fireball",
+    "minecraft:shulker_bullet",
+    "minecraft:llama_spit",
+    "minecraft:fishing_bobber"
+  ]
+}

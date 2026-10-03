@@ -1,0 +1,46 @@
+{
+    "version": "0.0.2",
+    "name": "map",
+    "data": {
+        "sync": {
+            "optimize": true,
+            "prune": true,
+            "output_path": "./map",
+            "exclude": [
+                "session.lock",
+                "level.dat_old",
+                "players",
+                "serverconfig",
+                "mcwifipnp.json",
+                "main.code-workspace",
+                "mfix_stronghold_cache_v2.nbt",
+                "generated",
+                "entities",
+                "poi",
+                "chunk_tickets.dat",
+                "raids.dat",
+                "world_border.dat",
+                "dimensions/minecraft/the_nether",
+                "dimensions/minecraft/the_end",
+                "dimensions/lp",
+                "dimensions/pvp",
+                "data/lp",
+                "data/pvp",
+                "data/lib",
+                "data/fabric",
+                "data/minecraft/stopwatches.dat",
+                "data/minecraft/scoreboard.dat",
+                "data/minecraft/scheduled_events.dat",
+                "data/minecraft/custom_boss_events.dat"
+            ]
+        },
+        "pack": {
+            "input_path": "./map",
+            "output_path": "./dist",
+            "name": "{name} {date}-{hash}",
+            "format": "zip",
+            "compression_level": 6,
+            "minify_datapack": true
+        }
+    }
+}

@@ -1,0 +1,1 @@
+$execute in minecraft:overworld rotated 0 $(x_rotation) positioned .0 .0 .0 run tp @s ^$(x_pos) ^$(y_pos) ^$(z_pos)

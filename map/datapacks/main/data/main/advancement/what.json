@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": "？",
+        "description": [
+            {
+                "text": "?",
+                "color": "#fef9d6",
+                "bold": true
+            }
+        ],
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:powder_snow_bucket"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "criteria": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards":{
+        "function": "main:advancement/check_all_eg"
+    },
+    "parent": "main:eg"
+}

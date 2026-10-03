@@ -1,0 +1,1 @@
+execute as @a[scores={dr.flag=1}] at @s run function dr:self with entity @s

@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "description": {
+      "text": "PVP",
+      "color": "red",
+      "bold": true
+    },
+    "min_format": [
+      121,
+      1
+    ],
+    "max_format": 121
+  }
+}

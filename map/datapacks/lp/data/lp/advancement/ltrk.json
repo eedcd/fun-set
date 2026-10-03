@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "use_fire_charge": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:red_dye",
+            "minecraft:yellow_dye",
+            "minecraft:blue_dye",
+            "minecraft:green_dye"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "lp:lobby/team/none"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "广车", 
+    "min_format": [
+      121,
+      1
+    ],
+    "max_format": 121
+  }
+}
